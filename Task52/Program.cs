@@ -30,7 +30,7 @@ void Average (int[,] matr)
         {
             total [j] += matr[i,j];
         }
-        Console.Write((total[j] / matr.GetLength(0)) + "||");
+        Console.Write(Math.Round((total[j] / matr.GetLength(0)), 2) + "||");
     }
     Console.WriteLine();
 }
